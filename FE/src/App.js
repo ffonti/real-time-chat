@@ -1,9 +1,10 @@
-import './App.css';
+import React from 'react';
+import ChatRoom from './components/ChatRoom';
 
-function App() {
+const App = () => {
   return (
-      <div>ciao</div>
-  );
+      <ChatRoom />
+  )
 }
 
 export default App;
